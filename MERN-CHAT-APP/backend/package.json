@@ -4,7 +4,7 @@
   "description": "Full-Stack chat application",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server",
+    "start": "nodemon server",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Christon Cardoza",

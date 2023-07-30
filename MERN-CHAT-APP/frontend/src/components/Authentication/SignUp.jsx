@@ -9,7 +9,7 @@ import {
   VStack,
   useToast,
 } from "@chakra-ui/react";
-import axios from "axios";
+import axios from "../../Api";
 import { useHistory } from "react-router-dom";
 
 const SignUp = () => {

@@ -14,7 +14,7 @@ import {
   useDisclosure,
   useToast,
 } from "@chakra-ui/react";
-import axios from "axios";
+import axios from "../../Api";
 
 import { ChatState } from "../../Context/ChatProvider";
 import UserListItem from "../UserAvatar/UserListItem";

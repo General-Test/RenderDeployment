@@ -16,7 +16,7 @@ import {
   IconButton,
   Spinner,
 } from "@chakra-ui/react";
-import axios from "axios";
+import axios from "../../Api";
 import { useState } from "react";
 import { ChatState } from "../../Context/ChatProvider";
 import UserBadgeItem from "../UserAvatar/UserBadgeItem";

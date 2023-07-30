@@ -22,7 +22,7 @@ import {
 import { BellIcon, ChevronDownIcon } from "@chakra-ui/icons";
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import axios from "axios";
+import axios from "../../Api";
 import NotificationBadge, { Effect } from "react-notification-badge";
 
 import { ChatState } from "../../Context/ChatProvider";
